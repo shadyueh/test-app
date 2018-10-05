@@ -1,0 +1,13 @@
+{
+    "name": "izaya/test-app",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Held Grijo",
+            "email": "von.grijo@pmm.am.gov.br"
+        }
+    ],
+    "require": {
+        "codeception/codeception": "*"
+    }
+}
