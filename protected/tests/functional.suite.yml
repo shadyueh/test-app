@@ -9,7 +9,4 @@ actor: FunctionalTester
 modules:
     enabled:
         # add a framework module here
-        - Yii1:
-            appPath: '/var/www/html/dsv/test-app/index-test.php'
-            url: 'http://localhost/dsv/test-app/index-test.php'
         - \Helper\Functional

@@ -8,6 +8,7 @@
         }
     ],
     "require": {
-        "codeception/codeception": "*"
+        "codeception/codeception": "*",
+        "codeception/yii-bridge": "dev-master"
     }
 }

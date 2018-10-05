@@ -1,10 +1,20 @@
 paths:
     tests: protected/tests
+    log: protected/tests/_log
     output: protected/tests/_output
     data: protected/tests/_data
     support: protected/tests/_support
     envs: protected/tests/_envs
+settings:
+#    bootstrap: _bootstrap.php
+    colors: true
+    memory_limit: 1024M
+    log: true
+    debug: true
 actor_suffix: Tester
 extensions:
     enabled:
+        - Yii1:
+            appPath: 'index-test.php'
+            url: 'http://localhost/dsv/test-app/index-test.php'
         - Codeception\Extension\RunFailed

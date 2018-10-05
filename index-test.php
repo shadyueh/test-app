@@ -8,7 +8,7 @@ defined('DS') or define('DS', DIRECTORY_SEPARATOR);
 
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/../yii-1.1/framework/yii.php';
-$config = require __DIR__.DS.'protected'.DS.'config'.DS.'test.php';
+$config=dirname(__FILE__).'/protected/config/test.php';
 
 // remove the following line when in production mode
 defined('YII_DEBUG') or define('YII_DEBUG',true);

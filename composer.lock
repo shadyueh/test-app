@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "533b198e4efc75529ebf53516400e88b",
+    "content-hash": "96a09cad983a649da67d104c86d8e558",
     "packages": [
         {
             "name": "behat/gherkin",
@@ -232,6 +232,28 @@
             ],
             "description": "Flexible Stub wrapper for PHPUnit's Mock Builder",
             "time": "2018-07-26T11:55:37+00:00"
+        },
+        {
+            "name": "codeception/yii-bridge",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lubobill1990/codeception-yii-bridge.git",
+                "reference": "a5841d6cd523835d31f6f0f11e381283440ee3f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lubobill1990/codeception-yii-bridge/zipball/a5841d6cd523835d31f6f0f11e381283440ee3f5",
+                "reference": "a5841d6cd523835d31f6f0f11e381283440ee3f5",
+                "shasum": ""
+            },
+            "type": "package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "YiiBridge extension",
+            "time": "2014-11-17T18:04:01+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -2454,7 +2476,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "codeception/yii-bridge": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
