@@ -6,7 +6,18 @@
 
 actor: AcceptanceTester
 modules:
-    enabled:
-        - PhpBrowser:
-            url: http://localhost/myapp
-        - \Helper\Acceptance
+  enabled:
+    - WebDriver
+    - \Helper\Acceptance
+  config:
+    WebDriver:
+      url: 'http://localhost/html/dsv/test-app'
+      browser: 'chrome'
+      wait: 0
+extensions:
+  enabled:
+  - Codeception\Extension\RunProcess:
+      0: java -Dwebdriver.chrome.driver=chromedriver -jar "/home/izaya/Downloads/selenium-server-standalone-3.14.0.jar"
+      sleep: 5
+
+# chromedriver: ./usr/lib/chromium-browser/chromedriver

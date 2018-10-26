@@ -1,7 +1,5 @@
 <?php
 
-Yii::setPathOfAlias('vendor','/vendor');
-
 $config = CMap::mergeArray(
 	require(dirname(__FILE__).'/main.php'),
 	array(
@@ -15,7 +13,7 @@ $config = CMap::mergeArray(
 			),
 			*/
 		),
-	)
+    )
 );
 
 return $config;

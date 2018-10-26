@@ -14,7 +14,4 @@ settings:
 actor_suffix: Tester
 extensions:
     enabled:
-        - Yii1:
-            appPath: 'index-test.php'
-            url: 'http://localhost/dsv/test-app/index-test.php'
         - Codeception\Extension\RunFailed

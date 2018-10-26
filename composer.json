@@ -9,6 +9,7 @@
     ],
     "require": {
         "codeception/codeception": "*",
-        "codeception/yii-bridge": "dev-master"
+        "codeception/yii-bridge": "dev-master",
+        "facebook/webdriver": "^1.6"
     }
 }
