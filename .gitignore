@@ -6,3 +6,6 @@ protected/runtime/*
 upload/*
 node_modules/
 /vendor/
+
+protected/tests/_output/*
+protected/tests/_generated/*
